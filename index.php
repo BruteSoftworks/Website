@@ -523,7 +523,7 @@
             </div>
 
             <div class="form">
-              <form action="assets/forms/contact.php" method="post" role="form" class="php-email-form">
+              <form action="assets/forms/Temp.php" method="post" role="form" class="php-email-form">
                 <div class="row">
                   <div class="form-group col-lg-6">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>

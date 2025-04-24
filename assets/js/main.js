@@ -188,4 +188,19 @@
    */
   new PureCounter();
 
+  /*(function ($) {
+
+    document.getElementById('email-form').addEventListener('submit', (e) => {
+      e.preventDefault();
+      //console.log("click");
+      let email = '';
+      let subject = 'Opt-out';
+      let emailBody = 'Hi,\n\nI would like to opt-out and unsubscribe. \n\n' + document.getElementById('email').value;
+      emailBody = encodeURIComponent(emailBody);
+      let w=window.open('','_blank','',true);
+      w.location.href = "mailto:"+email+"?subject="+subject+"&body="+emailBody;
+      w.focus();
+    });
+  })($);*/
+
 })()
