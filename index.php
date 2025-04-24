@@ -39,8 +39,8 @@
 
       <div class="logo">
         <!-- Uncomment below if you prefer to use an text logo -->
-        <!-- <h1><a href="index.html">NewBiz</a></h1> -->
-        <a href="index.html"><img src="assets/img/BruteAssets/Logos/BS_Text_red.png" alt="" class="img-fluid"></a>
+        <!-- <h1><a href="index.php">NewBiz</a></h1> -->
+        <a href="index.php"><img src="assets/img/BruteAssets/Logos/BS_Text_red.png" alt="" class="img-fluid"></a>
       </div>
 
       <nav id="navbar" class="navbar">
