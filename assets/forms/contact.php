@@ -16,5 +16,5 @@ $headers .= Mail_CC;
 $headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
 
-mail($to,$subject,$txt,$headers);
+echo mail($to,$subject,$txt,$headers);
 ?>
